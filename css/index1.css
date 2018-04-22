@@ -1,0 +1,119 @@
+.navbar{
+  border-bottom: #ec2229 1px solid;
+}
+
+.navbar .navbar-brand{
+  color: #ec2229;
+  font-size: 24px;
+}
+
+.bg-dark{
+  background-color: #ec2229;
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  transition: color .5s ease;
+}
+
+.nav-link:hover{
+  color:  #ec2229 !important;
+}
+
+#header-section{
+  background: url('../img/house-1150330_960_720.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header-section .overlay{
+  background-color: rgba(0,0,0, .7);
+}
+
+#header-section .row{
+  height: 100vh;
+}
+
+
+#header-section span{
+  color:  #ec2229 !important;
+}
+
+.btn-outline-danger{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+/* MV Section */
+
+#mv h4{
+  border-left: 6px solid #ec2229;
+  padding-left: 30px;
+  margin: 100px 0 0 0;
+}
+
+#mv .col-md-6{
+  display: inline;
+  
+}
+
+#mv p{
+  line-height: 25px;
+}
+
+h4{
+  font-size: 32px;
+  font-weight: 400;
+  color: #ec2229;
+  text-transform: uppercase;
+}
+
+/* case section */
+
+#case{
+  background-color: #f4f5f9;
+  line-height: 28px;
+}
+
+
+.caseArea{
+  background-color: white;
+  margin-top: 40px;
+  margin-right: -60px;
+  z-index: 100;
+  padding: 40px;
+  position: relative;
+  min-height: 450px;
+}
+
+.caseArea h3{
+  color: #ec2229;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+//* Contact section */
+
+#contact{
+  background-color: #f4f5f9;
+}
+
+#contact .input-group-addon{
+  
+  width: 50px;
+  border-radius: 0;
+  color:white;
+  background-color:#ec2229; 
+}
+
+/* Footer Section */
+
+#footer{
+  color: #fff;
+  background-color: #000;
+}
+

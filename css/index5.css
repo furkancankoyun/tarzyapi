@@ -1,0 +1,48 @@
+.navbar{
+  border-bottom: #ec2229 1px solid;
+}
+
+.navbar .navbar-brand{
+  color: #ec2229;
+  font-size: 24px;
+}
+
+.bg-dark{
+  background-color: #ec2229;
+}
+
+.nav-link{
+  color: white !important;
+  text-transform: uppercase;
+  transition: color .5s ease;
+}
+
+.nav-link:hover{
+  color:  #ec2229 !important;
+}
+
+#header-section{
+  background: url('../img/house-1150330_960_720.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header-section .overlay{
+  background-color: rgba(0,0,0, .7);
+}
+
+#header-section .row{
+  height: 100vh;
+}
+
+
+#header-section span{
+  color:  #ec2229 !important;
+}
+
+.btn-outline-danger{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 0px;
+  cursor: pointer;
+}
